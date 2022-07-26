@@ -1,25 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creative Image Gallery - Esay Tutorials</title>
-    <link rel="stylesheet" href="style.css">
+	<title>HTML Form.</title>
 </head>
 <body>
-    <div class="hero">
-        <h1>Kelapa Muda.</h1>
-        <h1>Bua Jeruk .</h1>
-        <h1>Bua Markisa.</h1>
-        <div class="img-box"></div>
 
+<form>
 
-    </div>
-    
-    
-    
+	<label for="username">Username:</label>
+	<input type="text" id="Username">
+	<br>
 
+	<label for="password">Password:</label>
+	<input type="text" id="password">
+		<br>
+		<input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+		<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label>
+		<br>
 
+		<input type="checkbox" id="menyanyi"><label for="menyanyi">Menyanyi</label>
+
+		<input type="checkbox" id="olahraga"><label for="olahraga">Olahraga</label>
+
+		<input type="checkbox" id="ngoding"><label for="ngoding">Ngoding</label>
+		<br>
+		
+		<textarea></textarea>
+		<br>
+		<select>
+			<option>Yahukimo</option>
+			<option>Wamena</option>
+			<option>Sogasio</option>
+			<option>Yeima</option>
+		</select>
+			<br>
+		<button type="submit">Kirim</button>
+</form>
 </body>
 </html>
